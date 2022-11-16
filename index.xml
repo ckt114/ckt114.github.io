@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transcending ___</title>
+    <link>https://www.tran-scending.net/</link>
+    <description>Recent content on transcending ___</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Nov 2022 16:11:58 -0500</lastBuildDate><atom:link href="https://www.tran-scending.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neovim</title>
+      <link>https://www.tran-scending.net/pages/neovim/</link>
+      <pubDate>Tue, 15 Nov 2022 16:11:58 -0500</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/neovim/</guid>
+      <description>Neovim Neovim is a derivative of Vim that includes an API and embedded Lua for enhancements and plugins.</description>
+    </item>
+    
+    <item>
+      <title>Openssl</title>
+      <link>https://www.tran-scending.net/pages/openssl/</link>
+      <pubDate>Sat, 05 Mar 2022 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/openssl/</guid>
+      <description>Using EasyRSA Reference  Quickstart  Setup  Download EasyRSA and extract it Configure vars file by copying vars.</description>
+    </item>
+    
+    <item>
+      <title>Podman</title>
+      <link>https://www.tran-scending.net/pages/podman/</link>
+      <pubDate>Sun, 19 Sep 2021 23:06:10 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/podman/</guid>
+      <description>Installation Arch sudo pacman -S podman slirp4netns fuse-overlayfs echo &amp;#39;ctran:100000:65536&amp;#39; | sudo tee -a /etc/subuid echo &amp;#39;ctran:100000:65536&amp;#39; | sudo tee -a /etc/subgid chmod 4755 /usr/bin/newgidmap chmod 4755 /usr/bin/newuidmap Restart WSL with wsl --shutdown.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://www.tran-scending.net/pages/tools/</link>
+      <pubDate>Wed, 04 Aug 2021 09:34:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/tools/</guid>
+      <description>ag - find in file  https://github.com/ggreer/the_silver_searcher   bat - cat replace with colors  https://github.</description>
+    </item>
+    
+    <item>
+      <title>Grub</title>
+      <link>https://www.tran-scending.net/pages/grub/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/grub/</guid>
+      <description>Memorized boot option  Modify /etc/default/grub like below  GRUB_DEFAULT=saved   Re-generate /boot/grub/grub.</description>
+    </item>
+    
+    <item>
+      <title>Kubeadm</title>
+      <link>https://www.tran-scending.net/pages/kubeadm/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/kubeadm/</guid>
+      <description>Prerequisites  Disable SELinux Disable firewalld Disable swap Add lines below to /etc/sysctl.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://www.tran-scending.net/pages/kubernetes/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/kubernetes/</guid>
+      <description>System configuration sudo systemctl stop firewalld sudo systemctl disable firewalld sudo systemctl stop iptables sudo systemctl disable iptables sudo sysctl -w net.</description>
+    </item>
+    
+    <item>
+      <title>Letsencrypt</title>
+      <link>https://www.tran-scending.net/pages/letsencrypt/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/letsencrypt/</guid>
+      <description>Installation yum install -y certbot Request cert certbot certonly --server https://acme-v02.</description>
+    </item>
+    
+    <item>
+      <title>Lvm</title>
+      <link>https://www.tran-scending.net/pages/lvm/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/lvm/</guid>
+      <description>List physical, volume group, and logical volumes pvs vgs lvs Resize logical volume # RHEL 6 lvextend -L 4G /dev/mapper/rootvg-lv.</description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://www.tran-scending.net/pages/misc/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/misc/</guid>
+      <description>Add VIP ifconfig eth0:1 192.168.50.53 netmask 255.255.255.0 CD burning growisofs -dvd-compat -Z /dev/dvd=DVD_Image.</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://www.tran-scending.net/pages/mysql/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/mysql/</guid>
+      <description>Passwords mysqladmin -u root password NEW_PASSWORD # when root has no password mysqladmin -u root -p OLD_PASSWORD password NEW_PASSWORD # when root has password mysqladmin -u user -p OLD_PASSWORD password NEW_PASSWORD Permissions mysql&amp;gt; grant all on database_name.</description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://www.tran-scending.net/pages/nginx/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/nginx/</guid>
+      <description>Proxy upstream apihub_gunicorn { least_conn; server localhost:6500 max_fails=3 fail_timeout=60 weight=1; } server { listen 443 ssl; server_name sre-pr-util01.</description>
+    </item>
+    
+    <item>
+      <title>Phpbrew</title>
+      <link>https://www.tran-scending.net/pages/phpbrew/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/phpbrew/</guid>
+      <description>Reference https://github.com/phpbrew/phpbrew
+Installation Prerequisites sudo apt-get install build-essential php7.0 php7.0-dev php-pear autoconf automake curl sudo apt-get install libcurl4-openssl-dev libxslt1-dev re2c libxml2-dev libxml2 php7.</description>
+    </item>
+    
+    <item>
+      <title>Samba</title>
+      <link>https://www.tran-scending.net/pages/samba/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/samba/</guid>
+      <description>Installation sudo yum install samba sudo apt-get install samba Configuration sudo vim /etc/samba/smb.</description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://www.tran-scending.net/pages/ssh/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/ssh/</guid>
+      <description>SSH over SOCKS5 proxy
+# Install tsocks sudo apt install tsocks # Ubuntu sudo pacman -S tsocks # Arch # Put content below into /etc/tsocks.</description>
+    </item>
+    
+    <item>
+      <title>Tcpdump</title>
+      <link>https://www.tran-scending.net/pages/tcpdump/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/tcpdump/</guid>
+      <description>General usage tcpdump -nvvi eth0 dst 10.200.227.145 and dst port 80 Capture header tcpdump -vvvs 1024 -l -A -i lo port 5601 | grep es-security-runas </description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>https://www.tran-scending.net/pages/vagrant/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/vagrant/</guid>
+      <description>Create base box Install OS using the following conditions  Use vagrant as username and password Install Virtual Box Guest Addition Add public key below to ~/.</description>
+    </item>
+    
+    <item>
+      <title>Vault</title>
+      <link>https://www.tran-scending.net/pages/vault/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/vault/</guid>
+      <description>Interactions export VAULT_ADDR=http://127.0.0.1:8200 vault init -key-shares=1 -key-threshold=1 # Initialize vault. Save keys and root token vault unseal [unseal key] # Do this N number of times as -key-shares when initializing vault vault login [token] # Login into vault to perform actions Endpoints vault secrets enable -path=[endpoint] [storage_backend] # Create secret endpoint vault secrets enable -description=&amp;#34;chimera simple ping sites&amp;#34; -path=sites kv # Created key/value endpoint at /sites vault secrets enable -description=&amp;#34;chimera passwords storage&amp;#34; -path=passwords kv # Created key/value endpoint at /passwords vault secrets enable -description=&amp;#34;sqlmon connections storage&amp;#34; -path=sqlmon kv # Created key/value endpoint at /sqlmon vault secrets list [-detailed] # List all available enpoints Policies vault policy list # List policies vault policy read [policy_name] # Read content of a policy vault policy read [chimera] vault policy write [policy_name] [policy_file] # Create a policy vault policy write synthetic policy.</description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://www.tran-scending.net/pages/vim/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/vim/</guid>
+      <description>Plugged Plugin Manager  Install Plugged plugin manager via https://github.com/junegunn/vim-plug Add the following lines into your ~/.</description>
+    </item>
+    
+    <item>
+      <title>Virtualbox</title>
+      <link>https://www.tran-scending.net/pages/virtualbox/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/virtualbox/</guid>
+      <description>Resize disk VBoxManage clonemedium disk inputDisk.vmdk outputDisk.vdi --format VDI VBoxManage modifymedium disk outputDisk.</description>
+    </item>
+    
+    <item>
+      <title>Wsl</title>
+      <link>https://www.tran-scending.net/pages/wsl/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:28 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/wsl/</guid>
+      <description>Installation dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart # OR Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux Disable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform Download a distribution  Official Community  Build a distribution Create rootfs from Docker image sudo su - mkdir rootfs &amp;amp;&amp;amp; docker export $(docker create archlinux) | tar -C rootfs -xf - cd rootfs &amp;amp;&amp;amp; tar czf .</description>
+    </item>
+    
+    <item>
+      <title>Apache</title>
+      <link>https://www.tran-scending.net/pages/apache/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:27 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/apache/</guid>
+      <description>Enable SSL SSLCertificateFile /path/to/crt/file SSLCertificateKeyFile /path/to/key/file Enable MIME-Type zipping LoadModule deflate_module modules/mod_deflate.</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://www.tran-scending.net/pages/docker/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:27 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/docker/</guid>
+      <description>Running containers docker run -t -i IMAGE COMMAND docker run -t -i ubuntu /bin/bash docker run -d ubuntu /bin/bash docker stop CONTAINER docker start CONTAINER # start previously stopped container docker exec -it CONTAINER COMMAND # attach to running container docker exec -it mycontainer bash # attach to running mycontainer and use bash shell docker rm CONTAINER # remove stopped container docker rm `docker ps -aq` # remove all stopped containers docker rm $(docker ps -aq) # remove all stopped containers - -t tty terminal inside container - -i grab STDIN of container - -d run as daemon - -P automatically map container&amp;#39;s ports to host Monitoring containers docker ps - -l return last running container - -a list all containers docker logs CONTAINER # see CONTAINER&amp;#39;s outputs docker logs -f nostalgic_morse # follow nostalgic_morse&amp;#39;s output docker top CONTAINER # list processes running inside container - -f follow, like tail -f docker inspect nostalgic_morse # list JSON data about nostalgic_morse docker inspect -f &amp;#39;{{range .</description>
+    </item>
+    
+    <item>
+      <title>Firewalld</title>
+      <link>https://www.tran-scending.net/pages/firewalld/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:27 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/firewalld/</guid>
+      <description>Reference https://firewalld.org/documentation/man-pages/firewall-cmd.html
+Zones firewall-cmd --get-zones # list zones firewall-cmd --list-all --zone=external # show a zone settings firewall-cmd --list-all-zones # show all zones settings firewall-cmd --permanent --zone=trusted --add-interface=ens192 # add interface to zone firewall-cmd --permanent --zone=external --remove-interface=ens224 # remove interface from zone Services firewall-cmd --permanent --zone=internal --add-service=dhcp firewall-cmd --permanent --zone=internal --remove-service=dns Ports firewall-cmd --permanent --zone=internal --add-port=2379/tcp firewall-cmd --permanent --zone=internal --remove-port=2380/tcp Forwarding firewall-cmd --permanent --zone=external --add-forward-port=port=10122:proto=tcp:toaddr=10.</description>
+    </item>
+    
+    <item>
+      <title>Fpm</title>
+      <link>https://www.tran-scending.net/pages/fpm/</link>
+      <pubDate>Sun, 04 Apr 2021 15:52:27 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/pages/fpm/</guid>
+      <description>Create RPM fpm -s dir -t rpm -n browsermob-proxy -v 2.</description>
+    </item>
+    
+    <item>
+      <title>Wiki</title>
+      <link>https://www.tran-scending.net/wiki/</link>
+      <pubDate>Sun, 04 Apr 2021 15:46:00 -0400</pubDate>
+      
+      <guid>https://www.tran-scending.net/wiki/</guid>
+      <description> Apache Docker firewalld fpm grub Kubeadm Kubernetes LetsEncrypt LVM Misc MySQL Neovim nginx OpenSSL PhpBrew Podman Samba SSH tcpdump tools vagrant vault vim VirtualBox WSL  </description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.tran-scending.net/posts/hugo/</link>
+      <pubDate>Sun, 31 Jan 2021 21:32:06 -0500</pubDate>
+      
+      <guid>https://www.tran-scending.net/posts/hugo/</guid>
+      <description>Finally had time to move my personal site from using Ghost to Hugo and hosted using GitHub Pages.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.tran-scending.net/contact/</link>
+      <pubDate>Sun, 24 Jan 2021 21:01:40 -0500</pubDate>
+      
+      <guid>https://www.tran-scending.net/contact/</guid>
+      <description>Chung Tran
+Charlotte, NC
+(704) 699-7781
+chung.k.tran@gmail.com
+https://www.linkedin.com/in/chung-tran-38118350/</description>
+    </item>
+    
+    <item>
+      <title>Profile</title>
+      <link>https://www.tran-scending.net/profile/</link>
+      <pubDate>Sun, 24 Jan 2021 20:10:25 -0500</pubDate>
+      
+      <guid>https://www.tran-scending.net/profile/</guid>
+      <description>Download Resume
+Summary I am a System Engineer with more than 15 years experience in programming, networking, and hosting in Linux and Windows environments.</description>
+    </item>
+    
+    <item>
+      <title>Kubeswitch</title>
+      <link>https://www.tran-scending.net/projects/kubeswitch/</link>
+      <pubDate>Sun, 24 Jan 2021 19:57:07 -0500</pubDate>
+      
+      <guid>https://www.tran-scending.net/projects/kubeswitch/</guid>
+      <description>I wrote this tool about a year ago to help me interact with different Kubernetes clusters.</description>
+    </item>
+    
+  </channel>
+</rss>

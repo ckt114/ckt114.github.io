@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Chung Tran | Openssl </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.88.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Automation, containerization, and open source advocate.">
+    
+    <link rel="stylesheet"
+          href="https://www.tran-scending.net/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
+          integrity="sha256-DGQ95ACK3KMp96LWFs4wjMqZ1O9F5MyjBzI&#43;eFeRAZQ="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="https://www.tran-scending.net/css/markupHighlight.min.8735c129318a1c824d066fc2cd1e3911054460819c296ac99007aeb5044b6605.css"
+        integrity="sha256-hzXBKTGKHIJNBm/CzR45EQVEYIGcKWrJkAeutQRLZgU="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="https://www.tran-scending.net/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.tran-scending.net/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.tran-scending.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.tran-scending.net/favicon-16x16.png">
+
+    <link rel="canonical" href="https://www.tran-scending.net/pages/openssl/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="https://www.tran-scending.net/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
+            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="https://www.tran-scending.net/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js"
+                integrity="sha256-jvceD9Q/IaMDcz277K5UOLeR0rgmxoqYg716pFmgdtI="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Openssl"/>
+<meta name="twitter:description" content="Using EasyRSA Reference  Quickstart  Setup  Download EasyRSA and extract it Configure vars file by copying vars."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="https://www.tran-scending.net/images/portrait.jpg" alt="profile picture">
+            <h3 title=""><a href="/">Chung Tran</a></h3>
+            <div class="description">
+                <p>Automation, containerization, and open source advocate.</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/chung-tran-38118350/" rel="me" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/trankchung/" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="mailto:chung.k.tran@gmail.com" rel="me" aria-label="E-Mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Chung Tran  2022 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/profile/"
+                        
+                   title="">Profile</a></li>
+        
+            
+            <li><a 
+                   href="/posts/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/projects/"
+                        
+                   title="">Projects</a></li>
+        
+            
+            <li><a 
+                   href="/contact/"
+                        
+                   title="">Contact</a></li>
+        
+            
+            <li><a 
+                   href="/wiki/"
+                        
+                   title="">Wiki</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            
+            <div class="post-title">
+                <h3>Openssl</h3>
+                
+            </div>
+
+            <h2 id="using-easyrsa">Using EasyRSA</h2>
+<h3 id="reference">Reference</h3>
+<ul>
+<li><a href="https://github.com/OpenVPN/easy-rsa/blob/master/README.quickstart.md">Quickstart</a></li>
+</ul>
+<h3 id="setup">Setup</h3>
+<ol>
+<li>Download <a href="https://github.com/OpenVPN/easy-rsa/releases">EasyRSA</a> and extract it</li>
+<li>Configure <code>vars</code> file by copying <code>vars.example</code> as <code>vars</code></li>
+<li>Uncomment and update following fields in <code>vars</code> file as necessary
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">set_var EASYRSA_REQ_COUNTRY  <span style="color:#e6db74">&#34;Country&#34;</span>
+set_var EASYRSA_REQ_PROVINCE <span style="color:#e6db74">&#34;State&#34;</span>
+set_var EASYRSA_REQ_CITY     <span style="color:#e6db74">&#34;City&#34;</span>
+set_var EASYRSA_REQ_ORG      <span style="color:#e6db74">&#34;Organization&#34;</span>
+set_var EASYRSA_REQ_EMAIL    <span style="color:#e6db74">&#34;me@example.net&#34;</span>
+set_var EASYRSA_REQ_OU       <span style="color:#e6db74">&#34;Organizational Unit&#34;</span>
+set_var EASYRSA_CA_EXPIRE    <span style="color:#ae81ff">3650</span>
+set_var EASYRSA_CERT_EXPIRE  <span style="color:#ae81ff">3650</span>
+</code></pre></div></li>
+<li>Initialize with <code>./easyrsa init-pki</code></li>
+</ol>
+<h3 id="generate-certificates">Generate certificates</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Generate a CA</span>
+$ ./easyrsa build-ca <span style="color:#f92672">[</span>nopass<span style="color:#f92672">]</span>              <span style="color:#75715e"># files: pki/ca.crt and pki/private/ca.key</span>
+
+<span style="color:#75715e"># Create &amp; sign a cert</span>
+$ ./easyrsa gen-req site <span style="color:#f92672">[</span>nopass<span style="color:#f92672">]</span>          <span style="color:#75715e"># files: pki/private/site.key and pki/reqs/site.req</span>
+
+$ ./easyrsa sign-req <span style="color:#f92672">[</span>client/server<span style="color:#f92672">]</span> site  <span style="color:#75715e"># file:  pki/private/issued/site.crt</span>
+</code></pre></div><h2 id="create-a-ca-certificatekey-pair">Create a CA certificate/key pair</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Generate a CA key protected with a password</span>
+openssl genrsa -des3 -out ca.key <span style="color:#ae81ff">4096</span>
+
+<span style="color:#75715e"># Generate a CA certificate using key</span>
+openssl req -x509 -new -nodes -key ca.key -sha256 -days <span style="color:#ae81ff">3065</span> -out ca.crt
+</code></pre></div><h2 id="signing-a-certificate-with-ca-certificate">Signing a certificate with CA certificate</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">1. Create a site.key using
+openssl genrsa -out site.key <span style="color:#ae81ff">2048</span>
+
+2. Generate a site.csr using
+openssl req -new -key site.key -out site.csr
+
+3. Create a site.ext using <span style="color:#e6db74">&#34;Extension Template&#34;</span> below <span style="color:#f92672">(</span>Optional<span style="color:#f92672">)</span>
+
+4. Create site.crt using site.csr with
+openssl x509 -req -in site.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out site.crt -days <span style="color:#ae81ff">3650</span> -sha256 -extfile site.ext
+</code></pre></div><h2 id="generate-a-self-signed-certificate">Generate a self-signed certificate</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days <span style="color:#ae81ff">3650</span> -nodes
+</code></pre></div><h2 id="convert-cert-to-pem">Convert Cert to PEM</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl x509 -in site.crt -out cert.pem -outform PEM
+</code></pre></div><h2 id="view-keycrtcsr">View key/crt/csr</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl rsa -in filename.key -check
+openssl x509 -in filename.crt -noout -text
+openssl req -in filename.csr -noout -text
+</code></pre></div><h2 id="convert-certificate">Convert certificate</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">openssl x509 -in input.crt -out output.der -outform DER
+openssl x509 -in input.der -out output.pem -outform PEM
+</code></pre></div><h2 id="extension-template">Extension Template</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">authorityKeyIdentifier<span style="color:#f92672">=</span>keyid,issuer
+basicConstraints<span style="color:#f92672">=</span>CA:FALSE
+keyUsage <span style="color:#f92672">=</span> digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName <span style="color:#f92672">=</span> @alt_names
+
+<span style="color:#f92672">[</span>alt_names<span style="color:#f92672">]</span>
+IP.1 <span style="color:#f92672">=</span> IP1
+IP.2 <span style="color:#f92672">=</span> IP2
+DNS.1 <span style="color:#f92672">=</span> DNS1
+DNS.2 <span style="color:#f92672">=</span> DNS2
+</code></pre></div><h2 id="import-ca">Import CA</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Arch</span>
+sudo trust anchor --store /path/to/cert.cert /etc/ca-certificates/trust-source/anchors
+</code></pre></div></div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="https://www.tran-scending.net/js/jquery.min.64d0083866906099f942140bc1c5cba4b1bf65783c52e4a63c5c46bf9dbc41f4.js"
+        integrity="sha256-ZNAIOGaQYJn5QhQLwcXLpLG/ZXg8UuSmPFxGv528QfQ="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="https://www.tran-scending.net/js/bundle.min.45159b0e20ba3878972e064b7edc464c31a9e35a0d0a6a71e3fec84efdbe2ea5.js"
+        integrity="sha256-RRWbDiC6OHiXLgZLftxGTDGp41oNCmpx4/7ITv2&#43;LqU="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="https://www.tran-scending.net/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js"
+        integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
