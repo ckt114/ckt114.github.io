@@ -2,110 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.tran-scending.net/pages/neovim/</loc>
+    <loc>https://www.ckt114.net/</loc>
     <lastmod>2022-11-15T16:11:58-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/</loc>
+    <loc>https://www.ckt114.net/pages/neovim/</loc>
     <lastmod>2022-11-15T16:11:58-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/</loc>
+    <loc>https://www.ckt114.net/pages/</loc>
     <lastmod>2022-11-15T16:11:58-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/openssl/</loc>
+    <loc>https://www.ckt114.net/pages/openssl/</loc>
     <lastmod>2022-03-05T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/podman/</loc>
+    <loc>https://www.ckt114.net/pages/podman/</loc>
     <lastmod>2021-09-19T23:06:10-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/tools/</loc>
+    <loc>https://www.ckt114.net/pages/tools/</loc>
     <lastmod>2021-08-04T09:34:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/grub/</loc>
+    <loc>https://www.ckt114.net/pages/grub/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/kubeadm/</loc>
+    <loc>https://www.ckt114.net/pages/kubeadm/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/kubernetes/</loc>
+    <loc>https://www.ckt114.net/pages/kubernetes/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/letsencrypt/</loc>
+    <loc>https://www.ckt114.net/pages/letsencrypt/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/lvm/</loc>
+    <loc>https://www.ckt114.net/pages/lvm/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/misc/</loc>
+    <loc>https://www.ckt114.net/pages/misc/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/mysql/</loc>
+    <loc>https://www.ckt114.net/pages/mysql/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/nginx/</loc>
+    <loc>https://www.ckt114.net/pages/nginx/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/phpbrew/</loc>
+    <loc>https://www.ckt114.net/pages/phpbrew/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/samba/</loc>
+    <loc>https://www.ckt114.net/pages/samba/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/ssh/</loc>
+    <loc>https://www.ckt114.net/pages/ssh/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/tcpdump/</loc>
+    <loc>https://www.ckt114.net/pages/tcpdump/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/vagrant/</loc>
+    <loc>https://www.ckt114.net/pages/vagrant/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/vault/</loc>
+    <loc>https://www.ckt114.net/pages/vault/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/vim/</loc>
+    <loc>https://www.ckt114.net/pages/vim/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/virtualbox/</loc>
+    <loc>https://www.ckt114.net/pages/virtualbox/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/wsl/</loc>
+    <loc>https://www.ckt114.net/pages/wsl/</loc>
     <lastmod>2021-04-04T15:52:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/apache/</loc>
+    <loc>https://www.ckt114.net/pages/apache/</loc>
     <lastmod>2021-04-04T15:52:27-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/docker/</loc>
+    <loc>https://www.ckt114.net/pages/docker/</loc>
     <lastmod>2021-04-04T15:52:27-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/firewalld/</loc>
+    <loc>https://www.ckt114.net/pages/firewalld/</loc>
     <lastmod>2021-04-04T15:52:27-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/pages/fpm/</loc>
+    <loc>https://www.ckt114.net/pages/fpm/</loc>
     <lastmod>2021-04-04T15:52:27-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/wiki/</loc>
+    <loc>https://www.ckt114.net/wiki/</loc>
     <lastmod>2021-04-04T15:46:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/posts/hugo/</loc>
+    <loc>https://www.ckt114.net/posts/hugo/</loc>
     <lastmod>2021-01-31T21:32:06-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/posts/</loc>
+    <loc>https://www.ckt114.net/posts/</loc>
     <lastmod>2021-01-31T21:32:06-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/contact/</loc>
+    <loc>https://www.ckt114.net/contact/</loc>
     <lastmod>2021-01-24T21:01:40-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/profile/</loc>
+    <loc>https://www.ckt114.net/profile/</loc>
     <lastmod>2021-01-24T20:10:25-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/projects/kubeswitch/</loc>
+    <loc>https://www.ckt114.net/projects/kubeswitch/</loc>
     <lastmod>2021-01-24T19:57:07-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/projects/</loc>
+    <loc>https://www.ckt114.net/projects/</loc>
     <lastmod>2021-01-24T19:57:07-05:00</lastmod>
   </url><url>
-    <loc>https://www.tran-scending.net/categories/</loc>
+    <loc>https://www.ckt114.net/pages/gpg/</loc>
   </url><url>
-    <loc>https://www.tran-scending.net/tags/</loc>
+    <loc>https://www.ckt114.net/categories/</loc>
+  </url><url>
+    <loc>https://www.ckt114.net/tags/</loc>
   </url>
 </urlset>

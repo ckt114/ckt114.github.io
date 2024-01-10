@@ -3,17 +3,17 @@
     <title> Chung Tran | Kubeadm </title>
 
     
-    <meta charset="utf-8"><meta name="generator" content="Hugo 0.88.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Automation, containerization, and open source advocate.">
     
     <link rel="stylesheet"
-          href="https://www.tran-scending.net/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
+          href="https://www.ckt114.net/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
           integrity="sha256-DGQ95ACK3KMp96LWFs4wjMqZ1O9F5MyjBzI&#43;eFeRAZQ="
           crossorigin="anonymous"
           type="text/css">
     
     <link rel="stylesheet"
-        href="https://www.tran-scending.net/css/markupHighlight.min.8735c129318a1c824d066fc2cd1e3911054460819c296ac99007aeb5044b6605.css"
+        href="https://www.ckt114.net/css/markupHighlight.min.8735c129318a1c824d066fc2cd1e3911054460819c296ac99007aeb5044b6605.css"
         integrity="sha256-hzXBKTGKHIJNBm/CzR45EQVEYIGcKWrJkAeutQRLZgU="
         crossorigin="anonymous"
         type="text/css">
@@ -24,20 +24,20 @@
     crossorigin="anonymous" />
 
     
-    <link rel="shortcut icon" href="https://www.tran-scending.net/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://www.tran-scending.net/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.tran-scending.net/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.tran-scending.net/favicon-16x16.png">
+    <link rel="shortcut icon" href="https://www.ckt114.net/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.ckt114.net/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.ckt114.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.ckt114.net/favicon-16x16.png">
 
-    <link rel="canonical" href="https://www.tran-scending.net/pages/kubeadm/">
+    <link rel="canonical" href="https://www.ckt114.net/pages/kubeadm/">
 
     
     
     
     
     <script type="text/javascript"
-            src="https://www.tran-scending.net/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
-            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            src="https://www.ckt114.net/js/anatole-header.min.df804b63b5bd8474ea0756ea874bc8f1e92552708cc6ea43aa0d76981dc419f9.js"
+            integrity="sha256-34BLY7W9hHTqB1bqh0vI8eklUnCMxupDqg12mB3EGfk="
             crossorigin="anonymous"></script>
 
 
@@ -45,19 +45,19 @@
         
         
         <script type="text/javascript"
-                src="https://www.tran-scending.net/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js"
-                integrity="sha256-jvceD9Q/IaMDcz277K5UOLeR0rgmxoqYg716pFmgdtI="
+                src="https://www.ckt114.net/js/anatole-theme-switcher.min.3829579c725749492568b0e6fa9da3012a7fc37fd291b4fd79e33c1df5d8a34a.js"
+                integrity="sha256-OClXnHJXSUklaLDm&#43;p2jASp/w3/SkbT9eeM8HfXYo0o="
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Kubeadm"/>
-<meta name="twitter:description" content="Prerequisites  Disable SELinux Disable firewalld Disable swap Add lines below to /etc/sysctl."/>
+<meta name="twitter:description" content="Prerequisites Disable SELinux Disable firewalld Disable swap Add lines below to /etc/sysctl."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
     <div class="logo-title">
         <div class="title">
-            <img src="https://www.tran-scending.net/images/portrait.jpg" alt="profile picture">
+            <img src="https://www.ckt114.net/images/portrait.jpg" alt="profile picture">
             <h3 title=""><a href="/">Chung Tran</a></h3>
             <div class="description">
                 <p>Automation, containerization, and open source advocate.</p>
@@ -73,7 +73,7 @@
             </li>
         
             <li>
-                <a href="https://github.com/trankchung/" rel="me" aria-label="GitHub">
+                <a href="https://github.com/ckt114/" rel="me" aria-label="GitHub">
                     <i class="fab fa-github fa-2x" aria-hidden="true"></i>
                 </a>
             </li>
@@ -86,7 +86,7 @@
         
     </ul>
     <div class="footer">
-        <div class="by_farbox">&copy; Chung Tran  2022 </div>
+        <div class="by_farbox">&copy; Chung Tran  2024 </div>
     </div>
 </div>
 <div class="main">
@@ -156,95 +156,95 @@
 <li>Disable firewalld</li>
 <li>Disable swap</li>
 <li>Add lines below to /etc/sysctl.conf
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">net.bridge.bridge-nf-call-iptables<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-net.ipv4.ip_forward<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-net.bridge.bridge-nf-call-ip6tables<span style="color:#f92672">=</span>1&lt;/code&gt;
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>net.bridge.bridge-nf-call-iptables<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>net.ipv4.ip_forward<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>net.bridge.bridge-nf-call-ip6tables<span style="color:#f92672">=</span>1&lt;/code&gt;
+</span></span></code></pre></div></li>
 <li>Probe modules
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">modprobe overlay
-modprobe br_netfilter
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>modprobe overlay
+</span></span><span style="display:flex;"><span>modprobe br_netfilter
+</span></span></code></pre></div></li>
 <li>Add docker-ce repository
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+</span></span></code></pre></div></li>
 <li>Copy <strong>kubernetes.repo</strong> to <strong>/etc/yum.repos.d/kubernetes.repo</strong></li>
 </ol>
 <h2 id="installation">Installation</h2>
 <ol>
 <li>Install packages
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">yum install -y yum-utils, device-mapper-persistent-data, lvm2
-yum install -y kubeadm kubelet kubectl docker-ce
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>yum install -y yum-utils, device-mapper-persistent-data, lvm2
+</span></span><span style="display:flex;"><span>yum install -y kubeadm kubelet kubectl docker-ce
+</span></span></code></pre></div></li>
 <li>Copy <strong>daemon.json</strong> to <strong>/etc/docker/daemon.json</strong></li>
 <li>Start services
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl enable docker
-systemctl start docker
-systemctl enable kubelet
-systemctl start kubelet
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>systemctl enable docker
+</span></span><span style="display:flex;"><span>systemctl start docker
+</span></span><span style="display:flex;"><span>systemctl enable kubelet
+</span></span><span style="display:flex;"><span>systemctl start kubelet
+</span></span></code></pre></div></li>
 </ol>
 <h2 id="initialize-cluster">Initialize cluster</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubeadm init --config cluster.yaml --upload-certs
-curl https://docs.projectcalico.org/manifests/calico.yaml -O
-sed -i <span style="color:#e6db74">&#39;s/192.168.0.0/10.42.0.0/g&#39;</span> calico.yaml  <span style="color:#75715e"># Replace 10.42.0.0 with what&#39;s in cluster.yaml</span>
-kubectl apply -f calico.yaml
-</code></pre></div><h2 id="join-cluster">Join cluster</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Join as control plane</span>
-kubeadm join k8s.local:6443 <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  --token TOKEN <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  --discovery-token-ca-cert-hash SHA256 <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  --control-plane --certificate-key CERTKEY
-
-<span style="color:#75715e"># Join as worker</span>
-kubeadm join k8s.local:6443 <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  --token TOKEN <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  --discovery-token-ca-cert-hash SHA256
-</code></pre></div><h2 id="reset-cluster">Reset cluster</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">kubeadm reset  <span style="color:#75715e"># Make sure all printed directories are deleted</span>
-</code></pre></div><h2 id="daemonjson">daemon.json</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-  <span style="color:#f92672">&#34;exec-opts&#34;</span>: [<span style="color:#e6db74">&#34;native.cgroupdriver=systemd&#34;</span>],
-  <span style="color:#f92672">&#34;log-driver&#34;</span>: <span style="color:#e6db74">&#34;json-file&#34;</span>,
-  <span style="color:#f92672">&#34;log-opts&#34;</span>: {
-    <span style="color:#f92672">&#34;max-size&#34;</span>: <span style="color:#e6db74">&#34;100m&#34;</span>
-  },
-  <span style="color:#f92672">&#34;storage-driver&#34;</span>: <span style="color:#e6db74">&#34;overlay2&#34;</span>,
-  <span style="color:#f92672">&#34;storage-opts&#34;</span>: [
-    <span style="color:#e6db74">&#34;overlay2.override_kernel_check=true&#34;</span>
-  ]
-}
-</code></pre></div><h2 id="kubernetesrepo">kubernetes.repo</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>kubernetes<span style="color:#f92672">]</span>
-baseurl <span style="color:#f92672">=</span> https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
-gpgcheck <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-gpgkey <span style="color:#f92672">=</span> https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
-name <span style="color:#f92672">=</span> Kubernetes YUM repository
-repo_gpgcheck <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</code></pre></div><h2 id="clusteryaml">cluster.yaml</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">---
-<span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">kubeadm.k8s.io/v1beta2</span>
-<span style="color:#f92672">kind</span>: <span style="color:#ae81ff">InitConfiguration</span>
-<span style="color:#f92672">localAPIEndpoint</span>:
-  <span style="color:#f92672">advertiseAddress</span>: <span style="color:#e6db74">&#34;192.168.2.10&#34;</span>
-  <span style="color:#f92672">bindPort</span>: <span style="color:#ae81ff">6443</span>
-
----
-<span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">kubeadm.k8s.io/v1beta2</span>
-<span style="color:#f92672">kind</span>: <span style="color:#ae81ff">ClusterConfiguration</span>
-<span style="color:#f92672">kubernetesVersion</span>: <span style="color:#ae81ff">1.17.2</span>
-<span style="color:#f92672">clusterName</span>: <span style="color:#ae81ff">kubernetes</span>
-<span style="color:#f92672">controlPlaneEndpoint</span>: <span style="color:#e6db74">&#34;k8s.local:6443&#34;</span>
-<span style="color:#f92672">apiServer</span>:
-  <span style="color:#f92672">extraArgs</span>:
-    <span style="color:#f92672">authorization-mode</span>: <span style="color:#ae81ff">Node,RBAC</span>
-  <span style="color:#f92672">certSANs</span>:
-  - <span style="color:#ae81ff">k8s</span>
-  - <span style="color:#ae81ff">k8s.local</span>
-<span style="color:#f92672">networking</span>:
-  <span style="color:#f92672">dnsDomain</span>: <span style="color:#ae81ff">cluster.local</span>
-  <span style="color:#f92672">podSubnet</span>: <span style="color:#e6db74">&#34;10.42.0.0/16&#34;</span>
-  <span style="color:#f92672">serviceSubnet</span>: <span style="color:#e6db74">&#34;10.43.0.0/16&#34;</span>
-</code></pre></div></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>kubeadm init --config cluster.yaml --upload-certs
+</span></span><span style="display:flex;"><span>curl https://docs.projectcalico.org/manifests/calico.yaml -O
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/192.168.0.0/10.42.0.0/g&#39;</span> calico.yaml  <span style="color:#75715e"># Replace 10.42.0.0 with what&#39;s in cluster.yaml</span>
+</span></span><span style="display:flex;"><span>kubectl apply -f calico.yaml
+</span></span></code></pre></div><h2 id="join-cluster">Join cluster</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Join as control plane</span>
+</span></span><span style="display:flex;"><span>kubeadm join k8s.local:6443 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --token TOKEN <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --discovery-token-ca-cert-hash SHA256 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --control-plane --certificate-key CERTKEY
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Join as worker</span>
+</span></span><span style="display:flex;"><span>kubeadm join k8s.local:6443 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --token TOKEN <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --discovery-token-ca-cert-hash SHA256
+</span></span></code></pre></div><h2 id="reset-cluster">Reset cluster</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>kubeadm reset  <span style="color:#75715e"># Make sure all printed directories are deleted</span>
+</span></span></code></pre></div><h2 id="daemonjson">daemon.json</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;exec-opts&#34;</span>: [<span style="color:#e6db74">&#34;native.cgroupdriver=systemd&#34;</span>],
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;log-driver&#34;</span>: <span style="color:#e6db74">&#34;json-file&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;log-opts&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;max-size&#34;</span>: <span style="color:#e6db74">&#34;100m&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;storage-driver&#34;</span>: <span style="color:#e6db74">&#34;overlay2&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;storage-opts&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;overlay2.override_kernel_check=true&#34;</span>
+</span></span><span style="display:flex;"><span>  ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="kubernetesrepo">kubernetes.repo</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#f92672">[</span>kubernetes<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>baseurl <span style="color:#f92672">=</span> https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+</span></span><span style="display:flex;"><span>gpgcheck <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>gpgkey <span style="color:#f92672">=</span> https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+</span></span><span style="display:flex;"><span>name <span style="color:#f92672">=</span> Kubernetes YUM repository
+</span></span><span style="display:flex;"><span>repo_gpgcheck <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><h2 id="clusteryaml">cluster.yaml</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">kubeadm.k8s.io/v1beta2</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">InitConfiguration</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">localAPIEndpoint</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">advertiseAddress</span>: <span style="color:#e6db74">&#34;192.168.2.10&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">bindPort</span>: <span style="color:#ae81ff">6443</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">kubeadm.k8s.io/v1beta2</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">ClusterConfiguration</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kubernetesVersion</span>: <span style="color:#ae81ff">1.17.2</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">clusterName</span>: <span style="color:#ae81ff">kubernetes</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">controlPlaneEndpoint</span>: <span style="color:#e6db74">&#34;k8s.local:6443&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">apiServer</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">extraArgs</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">authorization-mode</span>: <span style="color:#ae81ff">Node,RBAC</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">certSANs</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">k8s</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#ae81ff">k8s.local</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">networking</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">dnsDomain</span>: <span style="color:#ae81ff">cluster.local</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">podSubnet</span>: <span style="color:#e6db74">&#34;10.42.0.0/16&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">serviceSubnet</span>: <span style="color:#e6db74">&#34;10.43.0.0/16&#34;</span>
+</span></span></code></pre></div></div>
         <div class="post-footer">
             <div class="info">
                 
@@ -261,21 +261,21 @@ repo_gpgcheck <span style="color:#f92672">=</span> <span style="color:#ae81ff">1
 </div>
 
 <script type="text/javascript"
-        src="https://www.tran-scending.net/js/jquery.min.64d0083866906099f942140bc1c5cba4b1bf65783c52e4a63c5c46bf9dbc41f4.js"
-        integrity="sha256-ZNAIOGaQYJn5QhQLwcXLpLG/ZXg8UuSmPFxGv528QfQ="
+        src="https://www.ckt114.net/js/jquery.min.decb4e8fdab5cb7b76ec6470b6fb73d30c7ee8e248d7486f49007f3c525b7acb.js"
+        integrity="sha256-3stOj9q1y3t27GRwtvtz0wx&#43;6OJI10hvSQB/PFJbess="
         crossorigin="anonymous"></script>
 
 
 
 
 <script type="text/javascript"
-        src="https://www.tran-scending.net/js/bundle.min.45159b0e20ba3878972e064b7edc464c31a9e35a0d0a6a71e3fec84efdbe2ea5.js"
-        integrity="sha256-RRWbDiC6OHiXLgZLftxGTDGp41oNCmpx4/7ITv2&#43;LqU="
+        src="https://www.ckt114.net/js/bundle.min.3ebad6bf39b2e7c2f899d3ed9bc97e8c0c1ead7a1b57472e3387321f673b8077.js"
+        integrity="sha256-PrrWvzmy58L4mdPtm8l&#43;jAwerXobV0cuM4cyH2c7gHc="
         crossorigin="anonymous"></script>
 
 <script type="text/javascript"
-        src="https://www.tran-scending.net/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js"
-        integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w="
+        src="https://www.ckt114.net/js/medium-zoom.min.e1c6918cbaa90022a5612f0bd71c7bf3be6d036614c5729cebfe14f7b91fa4bc.js"
+        integrity="sha256-4caRjLqpACKlYS8L1xx7875tA2YUxXKc6/4U97kfpLw="
         crossorigin="anonymous"></script>
 </body>
 

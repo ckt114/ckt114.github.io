@@ -3,17 +3,17 @@
     <title> Chung Tran | Ssh </title>
 
     
-    <meta charset="utf-8"><meta name="generator" content="Hugo 0.88.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="Automation, containerization, and open source advocate.">
     
     <link rel="stylesheet"
-          href="https://www.tran-scending.net/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
+          href="https://www.ckt114.net/css/style.min.0c643de4008adca329f7a2d616ce308cca99d4ef45e4cca307323e7857910194.css"
           integrity="sha256-DGQ95ACK3KMp96LWFs4wjMqZ1O9F5MyjBzI&#43;eFeRAZQ="
           crossorigin="anonymous"
           type="text/css">
     
     <link rel="stylesheet"
-        href="https://www.tran-scending.net/css/markupHighlight.min.8735c129318a1c824d066fc2cd1e3911054460819c296ac99007aeb5044b6605.css"
+        href="https://www.ckt114.net/css/markupHighlight.min.8735c129318a1c824d066fc2cd1e3911054460819c296ac99007aeb5044b6605.css"
         integrity="sha256-hzXBKTGKHIJNBm/CzR45EQVEYIGcKWrJkAeutQRLZgU="
         crossorigin="anonymous"
         type="text/css">
@@ -24,20 +24,20 @@
     crossorigin="anonymous" />
 
     
-    <link rel="shortcut icon" href="https://www.tran-scending.net/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://www.tran-scending.net/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.tran-scending.net/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.tran-scending.net/favicon-16x16.png">
+    <link rel="shortcut icon" href="https://www.ckt114.net/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.ckt114.net/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.ckt114.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.ckt114.net/favicon-16x16.png">
 
-    <link rel="canonical" href="https://www.tran-scending.net/pages/ssh/">
+    <link rel="canonical" href="https://www.ckt114.net/pages/ssh/">
 
     
     
     
     
     <script type="text/javascript"
-            src="https://www.tran-scending.net/js/anatole-header.min.0c05c0a90d28c968a1cad4fb31abd0b8e1264e788ccefed022ae1d3b6f627514.js"
-            integrity="sha256-DAXAqQ0oyWihytT7MavQuOEmTniMzv7QIq4dO29idRQ="
+            src="https://www.ckt114.net/js/anatole-header.min.df804b63b5bd8474ea0756ea874bc8f1e92552708cc6ea43aa0d76981dc419f9.js"
+            integrity="sha256-34BLY7W9hHTqB1bqh0vI8eklUnCMxupDqg12mB3EGfk="
             crossorigin="anonymous"></script>
 
 
@@ -45,8 +45,8 @@
         
         
         <script type="text/javascript"
-                src="https://www.tran-scending.net/js/anatole-theme-switcher.min.8ef71e0fd43f21a303733dbbecae5438b791d2b826c68a9883bd7aa459a076d2.js"
-                integrity="sha256-jvceD9Q/IaMDcz277K5UOLeR0rgmxoqYg716pFmgdtI="
+                src="https://www.ckt114.net/js/anatole-theme-switcher.min.3829579c725749492568b0e6fa9da3012a7fc37fd291b4fd79e33c1df5d8a34a.js"
+                integrity="sha256-OClXnHJXSUklaLDm&#43;p2jASp/w3/SkbT9eeM8HfXYo0o="
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
@@ -58,7 +58,7 @@
 <body><div class="sidebar animated fadeInDown ">
     <div class="logo-title">
         <div class="title">
-            <img src="https://www.tran-scending.net/images/portrait.jpg" alt="profile picture">
+            <img src="https://www.ckt114.net/images/portrait.jpg" alt="profile picture">
             <h3 title=""><a href="/">Chung Tran</a></h3>
             <div class="description">
                 <p>Automation, containerization, and open source advocate.</p>
@@ -74,7 +74,7 @@
             </li>
         
             <li>
-                <a href="https://github.com/trankchung/" rel="me" aria-label="GitHub">
+                <a href="https://github.com/ckt114/" rel="me" aria-label="GitHub">
                     <i class="fab fa-github fa-2x" aria-hidden="true"></i>
                 </a>
             </li>
@@ -87,7 +87,7 @@
         
     </ul>
     <div class="footer">
-        <div class="by_farbox">&copy; Chung Tran  2022 </div>
+        <div class="by_farbox">&copy; Chung Tran  2024 </div>
     </div>
 </div>
 <div class="main">
@@ -152,71 +152,71 @@
             </div>
 
             <p>SSH over SOCKS5 proxy</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Install tsocks</span>
-sudo apt install tsocks  <span style="color:#75715e"># Ubuntu</span>
-sudo pacman -S tsocks    <span style="color:#75715e"># Arch</span>
-
-<span style="color:#75715e"># Put content below into /etc/tsocks.conf</span>
-server <span style="color:#f92672">=</span> localhost
-server_port <span style="color:#f92672">=</span> <span style="color:#ae81ff">5600</span>
-server_type <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-
-<span style="color:#75715e"># On first terminal</span>
-ssh jumphost -D localhost:5600
-
-<span style="color:#75715e"># On second terminal</span>
-alias sst<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;tsocks ssh&#39;</span>
-sst desthost
-</code></pre></div><h2 id="ssh-x-forwarding">SSH X-Forwarding</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># Install tsocks</span>
+</span></span><span style="display:flex;"><span>sudo apt install tsocks  <span style="color:#75715e"># Ubuntu</span>
+</span></span><span style="display:flex;"><span>sudo pacman -S tsocks    <span style="color:#75715e"># Arch</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Put content below into /etc/tsocks.conf</span>
+</span></span><span style="display:flex;"><span>server <span style="color:#f92672">=</span> localhost
+</span></span><span style="display:flex;"><span>server_port <span style="color:#f92672">=</span> <span style="color:#ae81ff">5600</span>
+</span></span><span style="display:flex;"><span>server_type <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># On first terminal</span>
+</span></span><span style="display:flex;"><span>ssh jumphost -D localhost:5600
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># On second terminal</span>
+</span></span><span style="display:flex;"><span>alias sst<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;tsocks ssh&#39;</span>
+</span></span><span style="display:flex;"><span>sst desthost
+</span></span></code></pre></div><h2 id="ssh-x-forwarding">SSH X-Forwarding</h2>
 <h4 id="server-setup">Server Setup</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum install xorg-x11-xauth xterm
-sudo vim /etc/ssh/sshd_config
-<span style="color:#75715e"># Change X11Forwarding to yes</span>
-sudo service sshd restart
-</code></pre></div><h4 id="on-mac-osx">On Mac OSX</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">- Install XQuartz from https://www.xquartz.org
-- ssh -Y user@server
-- echo $DISPLAY
-  - Should have something like <span style="color:#e6db74">&#34;localhost:10.0&#34;</span>
-- xauth list
-  - Should have something like <span style="color:#e6db74">&#34;us01vlomr001/unix:10  MIT-MAGIC-COOKIE-1  467d6d0e614d184ceff186651ee364e5&#34;</span>
-- xterm  <span style="color:#75715e"># You should have xterm run on your local but from remote server</span>
-- To have it working as another user, <span style="color:#66d9ef">for</span> example, oracle user
-  - sudo su - oracle
-  - echo $DISPLAY  <span style="color:#75715e"># Should have same value as 3a</span>
-  - xauth list  <span style="color:#75715e"># It&#39;s okay if error or no value</span>
-  - Copy the whole string from 4a without quotes
-  - xauth add <span style="color:#e6db74">&#34;copied value&#34;</span>   <span style="color:#75715e"># i.e.: xauth add us01vlomr001/unix:10  MIT-MAGIC-COOKIE-1  467d6d0e614d184ceff186651ee364e5</span>
-  - xterm  <span style="color:#75715e"># xterm should run locally but from remote server</span>
-</code></pre></div><h4 id="on-windows">On Windows</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">- Install putty from http://www.putty.org
-- Install Xming from http://www.straightrunning.com/XmingNotes
-- Create a copy of the Xming shortcut <span style="color:#66d9ef">for</span> yourself on desktop.
-  - Right click your shortcut and Properties
-  - Change :0 to :X, X means a different number. Each person should have a different number. – If you<span style="color:#960050;background-color:#1e0010">&#39;</span>re on the bastion hosts in DC4/NY2, reserve a personal display number on this page XMing setup <span style="color:#66d9ef">for</span> X11 tunneling
-  - Run your Xming shortcut
-- Running
-  - Putty
-    - Under Connection -&gt; SSH -&gt; X11, tick <span style="color:#e6db74">&#34;Enable X11 forwarding&#34;</span> and enter<span style="color:#e6db74">&#34;localhost:X&#34;</span>, replace X with your number
-  - Cygwin
-    - export DISPLAY<span style="color:#f92672">=</span>localhost:X, replace X with your number
-- Continue from step <span style="color:#ae81ff">3</span> in <span style="color:#e6db74">&#34;On MAC OSX&#34;</span> section
-</code></pre></div><h2 id="ssh-proxying">SSH Proxying</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum install xorg-x11-xauth xterm
+</span></span><span style="display:flex;"><span>sudo vim /etc/ssh/sshd_config
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Change X11Forwarding to yes</span>
+</span></span><span style="display:flex;"><span>sudo service sshd restart
+</span></span></code></pre></div><h4 id="on-mac-osx">On Mac OSX</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>- Install XQuartz from https://www.xquartz.org
+</span></span><span style="display:flex;"><span>- ssh -Y user@server
+</span></span><span style="display:flex;"><span>- echo $DISPLAY
+</span></span><span style="display:flex;"><span>  - Should have something like <span style="color:#e6db74">&#34;localhost:10.0&#34;</span>
+</span></span><span style="display:flex;"><span>- xauth list
+</span></span><span style="display:flex;"><span>  - Should have something like <span style="color:#e6db74">&#34;us01vlomr001/unix:10  MIT-MAGIC-COOKIE-1  467d6d0e614d184ceff186651ee364e5&#34;</span>
+</span></span><span style="display:flex;"><span>- xterm  <span style="color:#75715e"># You should have xterm run on your local but from remote server</span>
+</span></span><span style="display:flex;"><span>- To have it working as another user, <span style="color:#66d9ef">for</span> example, oracle user
+</span></span><span style="display:flex;"><span>  - sudo su - oracle
+</span></span><span style="display:flex;"><span>  - echo $DISPLAY  <span style="color:#75715e"># Should have same value as 3a</span>
+</span></span><span style="display:flex;"><span>  - xauth list  <span style="color:#75715e"># It&#39;s okay if error or no value</span>
+</span></span><span style="display:flex;"><span>  - Copy the whole string from 4a without quotes
+</span></span><span style="display:flex;"><span>  - xauth add <span style="color:#e6db74">&#34;copied value&#34;</span>   <span style="color:#75715e"># i.e.: xauth add us01vlomr001/unix:10  MIT-MAGIC-COOKIE-1  467d6d0e614d184ceff186651ee364e5</span>
+</span></span><span style="display:flex;"><span>  - xterm  <span style="color:#75715e"># xterm should run locally but from remote server</span>
+</span></span></code></pre></div><h4 id="on-windows">On Windows</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>- Install putty from http://www.putty.org
+</span></span><span style="display:flex;"><span>- Install Xming from http://www.straightrunning.com/XmingNotes
+</span></span><span style="display:flex;"><span>- Create a copy of the Xming shortcut <span style="color:#66d9ef">for</span> yourself on desktop.
+</span></span><span style="display:flex;"><span>  - Right click your shortcut and Properties
+</span></span><span style="display:flex;"><span>  - Change :0 to :X, X means a different number. Each person should have a different number. – If you<span style="color:#960050;background-color:#1e0010">&#39;</span>re on the bastion hosts in DC4/NY2, reserve a personal display number on this page XMing setup <span style="color:#66d9ef">for</span> X11 tunneling
+</span></span><span style="display:flex;"><span>  - Run your Xming shortcut
+</span></span><span style="display:flex;"><span>- Running
+</span></span><span style="display:flex;"><span>  - Putty
+</span></span><span style="display:flex;"><span>    - Under Connection -&gt; SSH -&gt; X11, tick <span style="color:#e6db74">&#34;Enable X11 forwarding&#34;</span> and enter<span style="color:#e6db74">&#34;localhost:X&#34;</span>, replace X with your number
+</span></span><span style="display:flex;"><span>  - Cygwin
+</span></span><span style="display:flex;"><span>    - export DISPLAY<span style="color:#f92672">=</span>localhost:X, replace X with your number
+</span></span><span style="display:flex;"><span>- Continue from step <span style="color:#ae81ff">3</span> in <span style="color:#e6db74">&#34;On MAC OSX&#34;</span> section
+</span></span></code></pre></div><h2 id="ssh-proxying">SSH Proxying</h2>
 <h4 id="reference">Reference</h4>
 <p><a href="http://www.webhostingtalk.com/showthread.php?t=539067">http://www.webhostingtalk.com/showthread.php?t=539067</a></p>
 <h4 id="using-putty">Using Putty</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">- SSH &gt;
-  - Enable compression
-  - Preferred SSH protocol version <span style="color:#ae81ff">2</span>
-  - Tunnels &gt;
-    - Dynamic
-    - Sourece Port: <span style="color:#ae81ff">8080</span>
-    - Click Add
-- Session &gt;
-  - Enter name and Save
-</code></pre></div><h4 id="using-ssh-on-linux">Using SSH on Linux</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ssh -C -D <span style="color:#f92672">[</span>localhost<span style="color:#f92672">]</span>:8080 user@host
-</code></pre></div><h2 id="browser-configuration">Browser Configuration</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>- SSH &gt;
+</span></span><span style="display:flex;"><span>  - Enable compression
+</span></span><span style="display:flex;"><span>  - Preferred SSH protocol version <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>  - Tunnels &gt;
+</span></span><span style="display:flex;"><span>    - Dynamic
+</span></span><span style="display:flex;"><span>    - Sourece Port: <span style="color:#ae81ff">8080</span>
+</span></span><span style="display:flex;"><span>    - Click Add
+</span></span><span style="display:flex;"><span>- Session &gt;
+</span></span><span style="display:flex;"><span>  - Enter name and Save
+</span></span></code></pre></div><h4 id="using-ssh-on-linux">Using SSH on Linux</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh -C -D <span style="color:#f92672">[</span>localhost<span style="color:#f92672">]</span>:8080 user@host
+</span></span></code></pre></div><h2 id="browser-configuration">Browser Configuration</h2>
 <p>Set proxy to use socks</p>
 </div>
         <div class="post-footer">
@@ -235,21 +235,21 @@ sudo service sshd restart
 </div>
 
 <script type="text/javascript"
-        src="https://www.tran-scending.net/js/jquery.min.64d0083866906099f942140bc1c5cba4b1bf65783c52e4a63c5c46bf9dbc41f4.js"
-        integrity="sha256-ZNAIOGaQYJn5QhQLwcXLpLG/ZXg8UuSmPFxGv528QfQ="
+        src="https://www.ckt114.net/js/jquery.min.decb4e8fdab5cb7b76ec6470b6fb73d30c7ee8e248d7486f49007f3c525b7acb.js"
+        integrity="sha256-3stOj9q1y3t27GRwtvtz0wx&#43;6OJI10hvSQB/PFJbess="
         crossorigin="anonymous"></script>
 
 
 
 
 <script type="text/javascript"
-        src="https://www.tran-scending.net/js/bundle.min.45159b0e20ba3878972e064b7edc464c31a9e35a0d0a6a71e3fec84efdbe2ea5.js"
-        integrity="sha256-RRWbDiC6OHiXLgZLftxGTDGp41oNCmpx4/7ITv2&#43;LqU="
+        src="https://www.ckt114.net/js/bundle.min.3ebad6bf39b2e7c2f899d3ed9bc97e8c0c1ead7a1b57472e3387321f673b8077.js"
+        integrity="sha256-PrrWvzmy58L4mdPtm8l&#43;jAwerXobV0cuM4cyH2c7gHc="
         crossorigin="anonymous"></script>
 
 <script type="text/javascript"
-        src="https://www.tran-scending.net/js/medium-zoom.min.2d6fd0be87fa98f0c9b4dc2536b312bbca48757f584f6ea1f394abc9bcc38fbc.js"
-        integrity="sha256-LW/Qvof6mPDJtNwlNrMSu8pIdX9YT26h85SrybzDj7w="
+        src="https://www.ckt114.net/js/medium-zoom.min.e1c6918cbaa90022a5612f0bd71c7bf3be6d036614c5729cebfe14f7b91fa4bc.js"
+        integrity="sha256-4caRjLqpACKlYS8L1xx7875tA2YUxXKc6/4U97kfpLw="
         crossorigin="anonymous"></script>
 </body>
 
