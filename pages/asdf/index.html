@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Chung Tran | Letsencrypt </title>
+    <title> Chung Tran | Asdf </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.99.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -29,7 +29,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.ckt114.net/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.ckt114.net/favicon-16x16.png">
 
-    <link rel="canonical" href="https://www.ckt114.net/pages/letsencrypt/">
+    <link rel="canonical" href="https://www.ckt114.net/pages/asdf/">
 
     
     
@@ -50,8 +50,8 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Letsencrypt"/>
-<meta name="twitter:description" content="Installation yum install -y certbot Request cert certbot certonly --server https://acme-v02."/>
+<meta name="twitter:title" content="Asdf"/>
+<meta name="twitter:description" content="Installation brew install asdf Usage # List all available plugins $ asdf plugin list all # List installed plugins $ asdf plugin list # Install a plugin $ asdf plugin add consul $ asdf plugin add hugo $ asdf plugin add python $ asdf plugin add ruby $ asdf plugin add terraform $ asdf plugin add vault # Install a version $ asdf install terraform latest $ asdf install terraform 1."/>
 
 </head>
 <body><div class="sidebar animated fadeInDown ">
@@ -146,16 +146,38 @@
         <div class="post-content">
             
             <div class="post-title">
-                <h3>Letsencrypt</h3>
+                <h3>Asdf</h3>
                 
             </div>
 
             <h2 id="installation">Installation</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>yum install -y certbot
-</span></span></code></pre></div><h2 id="request-cert">Request cert</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>certbot certonly --server https://acme-v02.api.letsencrypt.org/directory --manual --preferred-challenges dns -d <span style="color:#e6db74">&#39;ckt114.net,*.ckt114.net&#39;</span>
-</span></span></code></pre></div><h2 id="renew-cert">Renew cert</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>certbot renew
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>brew install asdf
+</span></span></code></pre></div><h2 id="usage">Usage</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span># List all available plugins
+</span></span><span style="display:flex;"><span>$ asdf plugin list all
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span># List installed plugins
+</span></span><span style="display:flex;"><span>$ asdf plugin list
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span># Install a plugin
+</span></span><span style="display:flex;"><span>$ asdf plugin add consul
+</span></span><span style="display:flex;"><span>$ asdf plugin add hugo
+</span></span><span style="display:flex;"><span>$ asdf plugin add python
+</span></span><span style="display:flex;"><span>$ asdf plugin add ruby
+</span></span><span style="display:flex;"><span>$ asdf plugin add terraform
+</span></span><span style="display:flex;"><span>$ asdf plugin add vault
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span># Install a version
+</span></span><span style="display:flex;"><span>$ asdf install terraform latest
+</span></span><span style="display:flex;"><span>$ asdf install terraform 1.9.8
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span># Set a version <span style="color:#66d9ef">for</span> local project
+</span></span><span style="display:flex;"><span>$ asdf set hugo 0.99.1
+</span></span><span style="display:flex;"><span>$ asdf set ruby 3.4.5
+</span></span><span style="display:flex;"><span>$ asdf set python 3.9.9
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span># Set a version globally
+</span></span><span style="display:flex;"><span>$ asdf set -u python 3.9.9
 </span></span></code></pre></div></div>
         <div class="post-footer">
             <div class="info">

@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ckt114.net/</loc>
-    <lastmod>2022-11-15T16:11:58-05:00</lastmod>
+    <loc>https://www.ckt114.net/pages/asdf/</loc>
+    <lastmod>2025-03-11T12:04:23-04:00</lastmod>
   </url><url>
-    <loc>https://www.ckt114.net/pages/neovim/</loc>
-    <lastmod>2022-11-15T16:11:58-05:00</lastmod>
+    <loc>https://www.ckt114.net/</loc>
+    <lastmod>2025-03-11T12:04:23-04:00</lastmod>
   </url><url>
     <loc>https://www.ckt114.net/pages/</loc>
+    <lastmod>2025-03-11T12:04:23-04:00</lastmod>
+  </url><url>
+    <loc>https://www.ckt114.net/pages/neovim/</loc>
     <lastmod>2022-11-15T16:11:58-05:00</lastmod>
   </url><url>
     <loc>https://www.ckt114.net/pages/openssl/</loc>
